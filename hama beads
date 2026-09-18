@@ -16,3 +16,77 @@
 </body>
 
 </html>
+
+
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #1a1a2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 30px;
+
+    font-size: 48px;
+    color: #00f5d4;
+
+    text-shadow:
+        4px 4px 0 #ff006e,
+        8px 8px 0 #8338ec;
+
+    letter-spacing: 4px;
+}
+
+/* Imagem */
+img {
+    width: 300px;
+    max-width: 90%;
+
+    border: 8px solid #ffffff;
+    border-radius: 4px;
+
+    box-shadow:
+        8px 8px 0 #ff006e,
+        16px 16px 0 #8338ec;
+
+    image-rendering: pixelated;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+img:hover {
+    transform: scale(1.05);
+
+    box-shadow:
+        12px 12px 0 #00f5d4,
+        20px 20px 0 #ff006e;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    img {
+        width: 250px;
+    }
+}
