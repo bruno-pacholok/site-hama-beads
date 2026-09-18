@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXEL ARTE</title>
+</head>
+
+<body>
+
+    <h1>PIXEL ARTE</h1>
+
+    <img src="imagem.png" alt="Imagem" width="300">
+
+</body>
+
+</html>
